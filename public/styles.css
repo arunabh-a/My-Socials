@@ -52,7 +52,7 @@
   font-family: 'Belanosima';
   color: #868b94;
   width: fit-content;
-  margin-top: 2%;
+  margin-top: 1%;
   padding: 100px 30px 32px;
   border-radius: 20px;
   background: rgba(0, 0, 0, 0.7);
@@ -235,6 +235,7 @@ color: #ffffff;
   flex-grow: 0;
 }
 
+/* for mobile devices */
 @media screen and (max-width: 850px) {
   
   .contain-card {
@@ -264,4 +265,38 @@ color: #ffffff;
     height: 50px;
   }
 }
+/* @media screen and (min-width: 769px) and (max-width: 1024px) */
+/* for small displays */
+@media screen and (min-width: 950px) and (max-width: 1500px){
 
+  #bg{
+    height: 130%;
+  }
+  #container{
+    height: 90%;
+  }
+  .contain-card {
+    padding: 30px 30px 10px;
+    border-radius: 30px;
+    scale: 0.9;
+  }
+  .link-text {
+    font-size: 30px;
+    font-family: 'Belanosima';
+  }
+  #pfp {
+    width: 180px;
+  }
+  #social {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+}
