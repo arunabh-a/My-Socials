@@ -2,10 +2,11 @@
 ### Self-Made Social Tree with my Social Handles along with some other links
 
 
-![App Image](client/public/img.png)
+![App Image](/public/src/image.png)
 
-Tech Stack:
-HTML
-CSS
-VantaJS
+
+## Tech Stack:
+- [HTML]
+- [CSS]
+- [VantaJS](https://www.vantajs.com/)
 
