@@ -6,7 +6,7 @@
 
 
 ## Tech Stack:
-- [HTML]
-- [CSS]
+- HTML
+- CSS
 - [VantaJS](https://www.vantajs.com/)
 
