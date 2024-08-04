@@ -5,6 +5,9 @@
     border-color: red; */
 }
 
+html, body{overflow:hidden;}
+
+
 @keyframes animate {
     0%{
         transform: translateY(0) rotate(0deg);
