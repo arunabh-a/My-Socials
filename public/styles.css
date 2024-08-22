@@ -6,7 +6,9 @@
     border-color: red */
 }
 
-html, body{overflow:hidden;}
+html, body {
+    overflow: hidden;
+}
 
 /* Keyframes for animations */
 @keyframes animate {
@@ -92,9 +94,8 @@ html, body{overflow:hidden;}
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center;
     align-items: center;
-    place-items: center;
     color: #868b94;
     width: 90%;
     max-width: 650px;
@@ -116,8 +117,6 @@ html, body{overflow:hidden;}
     margin: 0 0 0.4rem;
     color: #f9f9f9;
 }
-
-
 
 #pfp {
     width: 300px;
@@ -201,7 +200,6 @@ html, body{overflow:hidden;}
     flex: none;
     order: 0;
     flex-grow: 0;
-
 }
 
 .link {
@@ -240,42 +238,42 @@ html, body{overflow:hidden;}
 }
 
 #hashnode {
-    background: rgba( 41, 98, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba(41, 98, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #gmail {
-    background: rgba( 245, 83, 118, 0.4 );
+    background: rgba(245, 83, 118, 0.4);
     box-shadow: 0 8px 32px 0 rgba(135, 31, 66, 0.37);
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #linkedin {
-    background: rgba( 61, 217, 235, 0.4 );
+    background: rgba(61, 217, 235, 0.4);
     box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #github {
-    background: rgba( 35, 47, 206, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba(35, 47, 206, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-
+/* Mobile styles */
 @media screen and (max-width: 800px) {
     .contain-card {
         width: 95%;
-        padding: 1rem 1rem;
+        padding: 1rem;
     }
 
     #pfp {
@@ -311,42 +309,72 @@ html, body{overflow:hidden;}
     }
 }
 
-
-@media screen and (min-width: 860px) and (max-width: 1500px) {
-
+/* Tablet and medium screens */
+@media screen and (min-width: 801px) and (max-width: 1500px) {
     .contain-card {
         padding: 2.5rem 1.5rem;
         width: 80%;
-        }
-
+    }
 
     #pfp {
-        width: 200px; /* Smaller profile picture */
+        width: 200px; /* Adjusted profile picture size */
     }
 
     .link {
         width: 450px; /* Adjust width for medium screens */
         height: 75px; /* Adjust height */
-        
     }
 
     .link-text {
         font-size: 1.75rem; /* Slightly larger font size */
     }
 
-    .logo{
+    .logo {
         width: 62px;
         height: 62px;
     }
 
     .icon {
-        width: 50px; /* Smaller icon size */
+        width: 50px; /* Slightly larger icon size */
         height: 50px;
     }
 
     .social {
         gap: 1rem; /* Adjust gap for medium screens */
     }
-
 }
 
+/* Desktop styles (if needed) */
+@media screen and (min-width: 1501px) {
+    /* Desktop-specific styles go here if any */
+    .contain-card {
+        gap: 1rem;
+    }
+
+    #pfp {
+        width: 300px; /* Adjusted profile picture size */
+    }
+
+    .link {
+        width: 520px; /* Adjust width for medium screens */
+        height: 100px; /* Adjust height */
+    }
+
+    .link-text {
+        font-size: 2.7rem; /* Slightly larger font size */
+    }
+
+    .logo {
+        width: 63px;
+        height: 63px;
+    }
+
+    .icon {
+        width: 55px; /* Slightly larger icon size */
+        height: 55px;
+    }
+
+    .social {
+        gap: 1rem; /* Adjust gap for medium screens */
+    }
+}
