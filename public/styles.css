@@ -200,30 +200,37 @@ html, body{overflow:hidden;}
 #hashnode {
     background: rgba(41, 98, 255, 0.4);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #gmail {
-    background: rgba(245, 83, 118, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(135, 31, 66, 0.37);
+    
+    background: rgba(35, 47, 206, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #linkedin {
-    background: rgba(61, 217, 235, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
+    
+    background: rgba(245, 83, 118, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 66, 0.37);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #github {
-    background: rgba(35, 47, 206, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    
+    background: rgba(61, 217, 235, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 111, 135, 0.37);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.18);
